@@ -1,9 +1,7 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/signup">Sign Up</router-link>
-  </nav>
+  <Header></Header>
   <router-view/>
+  <Footer></Footer>
 </template>
 
 
@@ -41,13 +39,11 @@ main {
 header, footer {
   background-color: #b0b0b0;
   color: white;
-  padding: 1em;
 }
 
 nav {
   display: flex;
   justify-content: center;
-  background-color: #b0b0b0;
   padding: 10px;
 }
 
