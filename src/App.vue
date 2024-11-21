@@ -80,7 +80,12 @@ form input {
 }
 
 button {
-  padding: 0.5em 1em;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .error {
