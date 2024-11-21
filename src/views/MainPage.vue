@@ -42,7 +42,7 @@
     .posts-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Abstand zwischen Posts */
+    gap: 20px;
   }
     </style>
     

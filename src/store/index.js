@@ -26,9 +26,9 @@ export default createStore({
       for (let i = 1; i <= 10; i++) {
         posts.push({
           id: i,
-          date: `2022-10-${String(i).padStart(2, "0")}`,
+          date: `2024-11-${String(i).padStart(2, "0")}`,
           author: `Testname${i}`,
-          image: `https://via.placeholder.com/600x300?text=Post+Image+${i}`,
+          image: `/images/posts/post${i}.jpg`,
           description: `TestDescription${i}`,
           likes: 0,
         });

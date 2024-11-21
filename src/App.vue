@@ -26,12 +26,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e0e0e0; /* Hintergrundfarbe */
+  background-color: #e0e0e0;
 }
 
 main {
   max-width: 800px;
-  margin: 20px auto; /* Zentriert den Hauptinhalt */
+  margin: 20px auto;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -39,7 +39,7 @@ main {
 }
 
 header, footer {
-  background-color: #b0b0b0; /* Grauer Hintergrund */
+  background-color: #b0b0b0;
   color: white;
   padding: 1em;
 }
